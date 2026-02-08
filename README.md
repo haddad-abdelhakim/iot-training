@@ -103,4 +103,5 @@ check more [https://mosquitto.org/man/mosquitto-conf-5.html]
 ****************************  windows firewall enable ****************************
 
 netsh advfirewall firewall set rule group="File and Printer Sharing" new enable=Yes
+
 netsh advfirewall firewall add rule name="Allow ICMPv4" protocol=icmpv4:8,any dir=out action=allow
