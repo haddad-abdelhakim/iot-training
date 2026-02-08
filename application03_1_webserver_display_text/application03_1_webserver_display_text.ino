@@ -9,7 +9,7 @@ const char* password = "123123123123";
 WebServer server(80);
 
 // HTML content to be sent when someone accesses the root URL
-const char* htmlContent = "<html><body><h1>Hello cr enetcom</h1></body></html>";
+const char* htmlContent = "<html><body><h1>Hello iot</h1></body></html>";
 
 // Function to handle the root path
 void handleRoot() {
